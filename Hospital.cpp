@@ -83,12 +83,57 @@ int main()
         cout << "Enter the details of IPD patients" << i + 1 << ":" << endl;
         patients[i].ipd_pet_details();
     }
-
+   
     cout << "Displaying ipd patient details" << endl;
     for (int i = 0; i < d; i++)
     {
         cout << "IPD patient" << i + 1 << ":" << "details" << endl;
         patients[i].display_pet_details();
+         cout<<"-------------------------------------------------------------------------------------"<<endl;
     }
     return 0;
 }
+
+
+
+// class ipd_patient:public patient,public ipd
+// {
+// public:
+//     int n;
+//     void ipd_pet_details(){
+//          petientdetails();
+//          ipddetails();
+
+    
+
+//     cout<<"Enter the number of daya admitted:"<<endl;
+//     cin>>n;
+//     }
+   
+//    void display_pet_details(){
+//     dispet();
+//     dispipd();
+
+//     cout<<"Number of days addmited:"<<n<<endl;
+//    }
+// };
+
+// int main(){
+//     int d;
+
+//     cout<<"Enter the details of ipd patient:"<<endl;
+//     cin>>d;
+
+//     ipd_patient *patients = new ipd_patient[d];
+
+//     for(int i=0;i<d;i++){
+//         cout<<"Enter the details of ipd patients"<<i+1<<":"<<endl;
+//         patients[i].ipd_pet_details();
+//     }
+
+//     cout<<"Display ipd patient details"<<endl;
+//     for(int i=0;i<d;i++){
+//         cout<<"ipd patient"<<i+1<<":"<<"detaisl"<<endl;
+//         patients[i].display_pet_details();
+//     }
+// }
