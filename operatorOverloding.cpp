@@ -100,6 +100,7 @@
 // //     return 0;
 // // }
 
+//operator overloding using friend function
 #include<iostream>
 using  namespace std;
 class data{
